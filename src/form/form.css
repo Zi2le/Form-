@@ -1,0 +1,115 @@
+.homepage{
+    width: 400px;
+    height: 600px;
+    background-color: #8F7F6F; 
+    margin: 0 auto; 
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: darkgrey;
+}
+.firsticon{
+    margin-top: 90px;
+    margin-right: 190px;
+}
+.firsth1{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.para1{
+    margin-top: 50px;
+}
+.but1{
+    margin-top: 30px;
+    width: 190px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: darkslategrey;
+}
+.login{
+    width: 400px;
+    height: 600px;
+    background-color: #8F7F6F; 
+    margin: 0 auto; 
+}
+.log{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.secondh2{
+    margin-left: 50px;
+}
+.firstinput{
+    color: black;
+   background-color: transparent;
+   border: none;
+    outline: none;
+    margin-top: 150px;
+    border-bottom: 3px solid black;
+}
+.firstinput::placeholder{
+    color: black;
+}
+.secondinput{
+   margin-top: 40px;
+   background-color: transparent;
+   border: none;
+   outline: none;
+   border-bottom: 3px solid black;
+}
+.secondinput::placeholder{
+    color: black;
+}
+.but2{
+    margin-top: 60px;
+    width: 250px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: darkslategray;
+    outline: none;
+}
+.newaccount{
+    width: 400px;
+    height: 600px;
+    background-color: #8F7F6F; 
+    margin: 0 auto;   
+}
+.new{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px; 
+}
+.thirdinput{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 170px;
+    border-bottom: 2px solid black;
+}
+.fourthinput{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.firstname{
+    margin-left: 70px;
+}
+.name{
+    margin-right: 120px;
+}
+.user{
+    margin-right: 120px;
+}
+
