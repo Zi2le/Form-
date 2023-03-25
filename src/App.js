@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, Route, Routes } from 'react-router-dom'
+import {  Route, Routes } from 'react-router-dom'
 import ForgotPassword from './form/ForgotPassword'
 import HomePage from './form/HomePage'
 import LogIn from './form/LogIn'
@@ -9,18 +9,13 @@ export default function App() {
   return (
     <>
   
-    <ul>
-      <li>
-        {/* <Link to="/">HomePage</Link> */}
-        
-       </li>
-     </ul>
-     <div></div> 
+  
     <Routes >
       <Route path='/' element={<HomePage/>}/>
       <Route path='/login' element={<LogIn/>}/>
       <Route path='/newaccount' element={<NewAccount/>}/>
       <Route path='/forgotpassword' element={<ForgotPassword/>}/>
+      <Route path='/*' element={<HomePage/>}/>
     </Routes>
     </>
   )

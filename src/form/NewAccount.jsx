@@ -14,6 +14,7 @@ export default function NewAccount() {
      <input className='fourthinput' type="text" name="user" id="user" />
      <button className='but2'>Next</button>
      <p>Not the first time here? <Link className='link' to='/login'>Log in.</Link> </p>
+     
      </div>
     </div>
   )

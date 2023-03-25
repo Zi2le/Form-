@@ -10,7 +10,10 @@ export default function LogIn() {
      <div className='log'>
      <div className='div' ><BsFillPersonCheckFill/><input className='firstinput' type="text" name="me" id="me" placeholder='Username'/></div> 
       <br />
-     <div><AiOutlineCluster/><input className='secondinput' type="text" name="pa" id="pa" placeholder='Password'/></div> 
+     <div><AiOutlineCluster/><input className='secondinput' type="text" name="pa" id="pa" placeholder='Password'/>
+     <br />
+     <Link className='link' to='/forgotpassword'><p className='forgot'>Forgot Password</p></Link>
+     </div> 
       <button className='but2'>log in</button>
       <p className='secondpara'>First time here <Link className='link' to="/newaccount">sign up.</Link> </p>
       </div>

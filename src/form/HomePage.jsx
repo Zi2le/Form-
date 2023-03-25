@@ -12,7 +12,7 @@ export default function HomePage() {
     <h1 className='firsth1'>
       Start <br />  Your <br /> Adventure
     </h1>
-    <button className='but1'>log in</button>
+    <Link to='/login'><button className='but1'>log in</button></Link>
     <p className='para1'>You don't have an account? <Link className='link' to="/newaccount">Sign up please</Link></p>
     </div>
     </div>
